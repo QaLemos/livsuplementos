@@ -1,0 +1,22 @@
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar pastas de dependências de projetos Node.js
+node_modules/
+
+# Ignorar arquivos de build
+dist/
+build/
+
+# Ignorar arquivos de configuração específicos do editor
+.vscode/
+.idea/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos temporários de sistemas operacionais
+*.swp
+*.bak
+*.tmp

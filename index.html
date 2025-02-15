@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liv Suplementos - Em breve!</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/scripts.js"></script>
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <img src="assets/logotipo_Liv.png" alt="Liv Suplementos" class="logo">
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <section class="hero">
+        <h2>Em breve novidades incríveis!</h2>
+        <p>Fique por dentro das atualizações.</p>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Liv Suplementos. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Modal de Captura de Contatos -->
+    <div class="modal" id="contact-modal">
+        <div class="modal-content">
+            <button class="close-btn" id="closeModal">&times;</button>
+            <h3 id="modal-title">Quer saber mais?</h3>
+            <p id="modal-description">Deixe seu nome e WhatsApp para receber novidades.</p>
+            <form id="contact-form" action="https://script.google.com/macros/s/AKfycbwM1LKQGAmflBQKQ8cxMwSMvU1OzSMnWXIr8hCO8ViKOw2wfdpVUYxFUwTdMBU2IpXn/exec" method="POST">
+                <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+                <input type="tel" id="whatsapp" name="whatsapp" placeholder="Digite seu WhatsApp" required>
+                <button type="submit">Quero saber mais</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal" id="confirmation-modal">
+        <div class="modal-content">
+            <h3>Obrigado! Em breve entraremos em contato!</h3>
+            <button id="okButton">OK</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/cleave.js/dist/cleave.min.js"></script>
+
+
+
+</body>
+
+</html>
