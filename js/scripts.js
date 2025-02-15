@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const modal = document.getElementById("contact-modal");
-    const closeModal = document.getElementById("closeModal");
+   // const closeModal = document.getElementById("closeModal");
     const form = document.getElementById("contact-form");
     const confirmationModal = document.getElementById("confirmation-modal");
     const okButton = document.getElementById("okButton");
@@ -9,9 +9,9 @@ document.addEventListener("DOMContentLoaded", function () {
     modal.classList.add("show");
 
     // Fechar modal de contato ao clicar no botão "X"
-    closeModal.addEventListener("click", function () {
-        modal.classList.remove("show");
-    });
+    // closeModal.addEventListener("click", function () {
+    //     modal.classList.remove("show");
+    // });
 
     // Fechar modal de contato ao clicar fora dele
     modal.addEventListener("click", function (event) {
